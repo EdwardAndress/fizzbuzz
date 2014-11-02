@@ -16,3 +16,7 @@ def fizzbuzz(num)
 	return 'Buzz' if is_divisible_by_five?(num)
 	return num
 end
+
+numbers = (1..100).to_a
+
+numbers.each {|number| p fizzbuzz(number)}
