@@ -5,15 +5,15 @@ describe 'fizzbuzz' do
 	context 'FizzBuzz should accept a number and return' do
 
 		it 'Fizz when the number is a mulitple of 3' do
-			expect(is_divisible_by_three(3)).to eq true
+			expect(is_divisible_by_three?(3)).to eq true
 		end
 
 		it 'Buzz when the number is divisible by 5' do
-			expect(is_divisible_by_five(5)).to eq true
+			expect(is_divisible_by_five?(5)).to eq true
 		end
 
 		it 'FizzBuzz when the number is divisible by both 3 and 5' do
-			expect(is_divisible_by_fifteen(15)).to eq true
+			expect(is_divisible_by_fifteen?(15)).to eq true
 		end
 
 	end
